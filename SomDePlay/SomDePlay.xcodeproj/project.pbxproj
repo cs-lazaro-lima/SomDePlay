@@ -56,6 +56,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC0C05F91FC8C67900D0D522 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC0C05FB1FC8CC7100D0D522 /* Artist */,
+				EC0C05FC1FC8CC8500D0D522 /* Album */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EC0C05FA1FC8C69200D0D522 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EC0C05FB1FC8CC7100D0D522 /* Artist */ = {
+			isa = PBXGroup;
+			children = (
+				EC0C06021FC8CD2E00D0D522 /* View */,
+				EC0C06011FC8CD2500D0D522 /* Router */,
+				EC0C05FF1FC8CD1500D0D522 /* Presenter */,
+				EC0C05FE1FC8CD0600D0D522 /* Interector */,
+				EC0C05FD1FC8CCFE00D0D522 /* Entity */,
+			);
+			path = Artist;
+			sourceTree = "<group>";
+		};
+		EC0C05FC1FC8CC8500D0D522 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				EC0C06071FC8CD4D00D0D522 /* View */,
+				EC0C06061FC8CD4600D0D522 /* Router */,
+				EC0C06051FC8CD4100D0D522 /* Presenter */,
+				EC0C06041FC8CD3C00D0D522 /* Interector */,
+				EC0C06031FC8CD3500D0D522 /* Entity */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		EC0C05FD1FC8CCFE00D0D522 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EC0C05FE1FC8CD0600D0D522 /* Interector */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interector;
+			sourceTree = "<group>";
+		};
+		EC0C05FF1FC8CD1500D0D522 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EC0C06011FC8CD2500D0D522 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EC0C06021FC8CD2E00D0D522 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC0C06031FC8CD3500D0D522 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EC0C06041FC8CD3C00D0D522 /* Interector */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interector;
+			sourceTree = "<group>";
+		};
+		EC0C06051FC8CD4100D0D522 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EC0C06061FC8CD4600D0D522 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EC0C06071FC8CD4D00D0D522 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EC620D7B1FC89EBB00168668 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +187,9 @@
 		EC620D861FC89EBB00168668 /* SomDePlay */ = {
 			isa = PBXGroup;
 			children = (
+				EC0C05F91FC8C67900D0D522 /* Application */,
+				EC0C05FA1FC8C69200D0D522 /* Network */,
+				EC620DA91FC8A6BB00168668 /* Common */,
 				EC620DA81FC8A49000168668 /* AppDelegate */,
 				EC620DA71FC8A45E00168668 /* Resources */,
 				EC620D891FC89EBB00168668 /* ViewController.swift */,
@@ -110,6 +223,13 @@
 				EC620D871FC89EBB00168668 /* AppDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EC620DA91FC8A6BB00168668 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
