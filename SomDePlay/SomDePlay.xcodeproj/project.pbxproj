@@ -32,7 +32,7 @@
 		EC620D8C1FC89EBB00168668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC620D8E1FC89EBB00168668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC620D911FC89EBB00168668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EC620D931FC89EBB00168668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC620D931FC89EBB00168668 /* SomDePlay-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SomDePlay-info.plist"; sourceTree = "<group>"; };
 		EC620D981FC89EBB00168668 /* SomDePlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomDePlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC620D9C1FC89EBB00168668 /* SomDePlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomDePlayTests.swift; sourceTree = "<group>"; };
 		EC620D9E1FC89EBB00168668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,12 +77,10 @@
 		EC620D861FC89EBB00168668 /* SomDePlay */ = {
 			isa = PBXGroup;
 			children = (
-				EC620D871FC89EBB00168668 /* AppDelegate.swift */,
+				EC620DA81FC8A49000168668 /* AppDelegate */,
+				EC620DA71FC8A45E00168668 /* Resources */,
 				EC620D891FC89EBB00168668 /* ViewController.swift */,
 				EC620D8B1FC89EBB00168668 /* Main.storyboard */,
-				EC620D8E1FC89EBB00168668 /* Assets.xcassets */,
-				EC620D901FC89EBB00168668 /* LaunchScreen.storyboard */,
-				EC620D931FC89EBB00168668 /* Info.plist */,
 			);
 			path = SomDePlay;
 			sourceTree = "<group>";
@@ -94,6 +92,24 @@
 				EC620D9E1FC89EBB00168668 /* Info.plist */,
 			);
 			path = SomDePlayTests;
+			sourceTree = "<group>";
+		};
+		EC620DA71FC8A45E00168668 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC620D8E1FC89EBB00168668 /* Assets.xcassets */,
+				EC620D901FC89EBB00168668 /* LaunchScreen.storyboard */,
+				EC620D931FC89EBB00168668 /* SomDePlay-info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC620DA81FC8A49000168668 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EC620D871FC89EBB00168668 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,7 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SomDePlay/Info.plist;
+				INFOPLIST_FILE = "SomDePlay/Resources/SomDePlay-info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Concrete.SomDePlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,7 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SomDePlay/Info.plist;
+				INFOPLIST_FILE = "SomDePlay/Resources/SomDePlay-info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Concrete.SomDePlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
