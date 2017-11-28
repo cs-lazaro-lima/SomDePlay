@@ -6,6 +6,8 @@
 //  Copyright © 2017 Lazaro Lima. All rights reserved.
 //
 
+import Foundation
+
 protocol PostRequestable {
     func post(url: String, params: [String: Any], completionHandler: @escaping (Data?, NetworkError?) -> Void)
 }

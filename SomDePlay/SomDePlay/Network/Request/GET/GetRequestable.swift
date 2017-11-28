@@ -6,6 +6,8 @@
 //  Copyright © 2017 Lazaro Lima. All rights reserved.
 //
 
+import Foundation
+
 protocol GetRequestable {
     func get(url: String, completionHandler: @escaping (Data?, NetworkError?) -> Void)
 }
