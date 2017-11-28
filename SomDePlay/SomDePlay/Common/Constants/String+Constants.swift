@@ -15,5 +15,9 @@ extension String {
         static let offline = "Você está offline."
         static let other = "Algo de errado não está certo."
     }
+    
+    struct NavigationTitle {
+        static let artist = "Artistas"
+    }
 }
 
