@@ -23,10 +23,10 @@ final class ArtistNavigationViewControllerRouter: ArtistRouter {
     
     func root() {
         artistViewController?.artistRouter = self
-        navigationController.navigationBar.tintColor = .navigation
-        navigationController.navigationController?.title = String.NavigationTitle.artist
-        window.backgroundColor = .background
+        navigationController.navigationBar.barTintColor = .navigation
+        navigationController.navigationBar.barStyle = .black
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
     }    
 }
+  

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC364F191FCF2835001FA029 /* ArtistInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F181FCF2835001FA029 /* ArtistInterector.swift */; };
+		EC364F1B1FCF286F001FA029 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F1A1FCF286F001FA029 /* Artist.swift */; };
+		EC364F251FCF2B77001FA029 /* ArtistGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F241FCF2B77001FA029 /* ArtistGateway.swift */; };
+		EC364F271FCF2C05001FA029 /* ArtistByIdNetworkGatway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F261FCF2C05001FA029 /* ArtistByIdNetworkGatway.swift */; };
+		EC364F291FCF2DBE001FA029 /* ArtistDecodableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F281FCF2DBE001FA029 /* ArtistDecodableEntity.swift */; };
+		EC364F2B1FCF31F0001FA029 /* GenerateResultEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F2A1FCF31F0001FA029 /* GenerateResultEntity.swift */; };
+		EC364F2F1FCF3B6C001FA029 /* ArtistInterectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F2E1FCF3B6C001FA029 /* ArtistInterectorFactory.swift */; };
+		EC364F321FCF3BF3001FA029 /* ArtistGatwayFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F311FCF3BF3001FA029 /* ArtistGatwayFactory.swift */; };
+		EC364F371FCF3DC7001FA029 /* ArtistPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F361FCF3DC7001FA029 /* ArtistPresenterFactory.swift */; };
 		EC620D881FC89EBB00168668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC620D871FC89EBB00168668 /* AppDelegate.swift */; };
 		EC620D8F1FC89EBB00168668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC620D8E1FC89EBB00168668 /* Assets.xcassets */; };
 		EC620D921FC89EBB00168668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC620D901FC89EBB00168668 /* LaunchScreen.storyboard */; };
@@ -31,7 +40,7 @@
 		EC95B19D1FCDDEB6005BD0A7 /* ArtistCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95B19C1FCDDEB6005BD0A7 /* ArtistCollectionView.swift */; };
 		EC95B1A11FCDE434005BD0A7 /* RootNavigationViewControllerRouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95B1A01FCDE434005BD0A7 /* RootNavigationViewControllerRouterFactory.swift */; };
 		EC9693131FCC5FF10031AD69 /* GetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9693121FCC5FF10031AD69 /* GetRequest.swift */; };
-		EC9693161FCC60540031AD69 /* GenerateResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9693151FCC60540031AD69 /* GenerateResult.swift */; };
+		EC9693161FCC60540031AD69 /* GenerateResultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9693151FCC60540031AD69 /* GenerateResultList.swift */; };
 		EC9693191FCC609F0031AD69 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9693181FCC609F0031AD69 /* Result.swift */; };
 		EC96931B1FCC60B40031AD69 /* CompletionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96931A1FCC60B40031AD69 /* CompletionHandler.swift */; };
 		EC9693201FCC612B0031AD69 /* GetRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96931F1FCC612B0031AD69 /* GetRequestFactory.swift */; };
@@ -49,6 +58,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC364F181FCF2835001FA029 /* ArtistInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInterector.swift; sourceTree = "<group>"; };
+		EC364F1A1FCF286F001FA029 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		EC364F241FCF2B77001FA029 /* ArtistGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistGateway.swift; sourceTree = "<group>"; };
+		EC364F261FCF2C05001FA029 /* ArtistByIdNetworkGatway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistByIdNetworkGatway.swift; sourceTree = "<group>"; };
+		EC364F281FCF2DBE001FA029 /* ArtistDecodableEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDecodableEntity.swift; sourceTree = "<group>"; };
+		EC364F2A1FCF31F0001FA029 /* GenerateResultEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateResultEntity.swift; sourceTree = "<group>"; };
+		EC364F2E1FCF3B6C001FA029 /* ArtistInterectorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInterectorFactory.swift; sourceTree = "<group>"; };
+		EC364F311FCF3BF3001FA029 /* ArtistGatwayFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistGatwayFactory.swift; sourceTree = "<group>"; };
+		EC364F361FCF3DC7001FA029 /* ArtistPresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistPresenterFactory.swift; sourceTree = "<group>"; };
 		EC620D841FC89EBB00168668 /* SomDePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomDePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC620D871FC89EBB00168668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC620D8E1FC89EBB00168668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,7 +95,7 @@
 		EC95B19C1FCDDEB6005BD0A7 /* ArtistCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCollectionView.swift; sourceTree = "<group>"; };
 		EC95B1A01FCDE434005BD0A7 /* RootNavigationViewControllerRouterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationViewControllerRouterFactory.swift; sourceTree = "<group>"; };
 		EC9693121FCC5FF10031AD69 /* GetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequest.swift; sourceTree = "<group>"; };
-		EC9693151FCC60540031AD69 /* GenerateResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateResult.swift; sourceTree = "<group>"; };
+		EC9693151FCC60540031AD69 /* GenerateResultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateResultList.swift; sourceTree = "<group>"; };
 		EC9693181FCC609F0031AD69 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		EC96931A1FCC60B40031AD69 /* CompletionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionHandler.swift; sourceTree = "<group>"; };
 		EC96931F1FCC612B0031AD69 /* GetRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequestFactory.swift; sourceTree = "<group>"; };
@@ -124,12 +142,9 @@
 		EC0C05FB1FC8CC7100D0D522 /* Artist */ = {
 			isa = PBXGroup;
 			children = (
+				EC364F1D1FCF2A90001FA029 /* Controller */,
+				EC364F1C1FCF2A8B001FA029 /* Core */,
 				EC95B18E1FCDD5FF005BD0A7 /* Factory */,
-				EC0C06021FC8CD2E00D0D522 /* View */,
-				EC0C06011FC8CD2500D0D522 /* Router */,
-				EC0C05FF1FC8CD1500D0D522 /* Presenter */,
-				EC0C05FE1FC8CD0600D0D522 /* Interector */,
-				EC0C05FD1FC8CCFE00D0D522 /* Entity */,
 			);
 			path = Artist;
 			sourceTree = "<group>";
@@ -145,46 +160,6 @@
 				EC0C06031FC8CD3500D0D522 /* Entity */,
 			);
 			path = Album;
-			sourceTree = "<group>";
-		};
-		EC0C05FD1FC8CCFE00D0D522 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		EC0C05FE1FC8CD0600D0D522 /* Interector */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Interector;
-			sourceTree = "<group>";
-		};
-		EC0C05FF1FC8CD1500D0D522 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				EC95B1961FCDD781005BD0A7 /* ArtistPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		EC0C06011FC8CD2500D0D522 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				EC95B1921FCDD6E1005BD0A7 /* ArtistRouter.swift */,
-				EC95B1981FCDD8A5005BD0A7 /* ArtistNavigationViewControllerRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		EC0C06021FC8CD2E00D0D522 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				EC95B1941FCDD73A005BD0A7 /* ArtistViewController.swift */,
-				EC95B19C1FCDDEB6005BD0A7 /* ArtistCollectionView.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		EC0C06031FC8CD3500D0D522 /* Entity */ = {
@@ -220,6 +195,102 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EC364F1C1FCF2A8B001FA029 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EC364F231FCF2AF9001FA029 /* Entity */,
+				EC364F221FCF2AEF001FA029 /* Interector */,
+				EC364F211FCF2AE7001FA029 /* Gatway */,
+				EC364F201FCF2ADF001FA029 /* Presenter */,
+				EC364F1F1FCF2AD4001FA029 /* Router */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EC364F1D1FCF2A90001FA029 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC95B1941FCDD73A005BD0A7 /* ArtistViewController.swift */,
+				EC364F1E1FCF2A98001FA029 /* Views */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC364F1E1FCF2A98001FA029 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC95B19C1FCDDEB6005BD0A7 /* ArtistCollectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC364F1F1FCF2AD4001FA029 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EC95B1921FCDD6E1005BD0A7 /* ArtistRouter.swift */,
+				EC95B1981FCDD8A5005BD0A7 /* ArtistNavigationViewControllerRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EC364F201FCF2ADF001FA029 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EC95B1961FCDD781005BD0A7 /* ArtistPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EC364F211FCF2AE7001FA029 /* Gatway */ = {
+			isa = PBXGroup;
+			children = (
+				EC364F241FCF2B77001FA029 /* ArtistGateway.swift */,
+				EC364F261FCF2C05001FA029 /* ArtistByIdNetworkGatway.swift */,
+			);
+			path = Gatway;
+			sourceTree = "<group>";
+		};
+		EC364F221FCF2AEF001FA029 /* Interector */ = {
+			isa = PBXGroup;
+			children = (
+				EC364F181FCF2835001FA029 /* ArtistInterector.swift */,
+			);
+			path = Interector;
+			sourceTree = "<group>";
+		};
+		EC364F231FCF2AF9001FA029 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EC364F1A1FCF286F001FA029 /* Artist.swift */,
+				EC364F281FCF2DBE001FA029 /* ArtistDecodableEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EC364F2C1FCF3B4C001FA029 /* Interector */ = {
+			isa = PBXGroup;
+			children = (
+				EC364F2E1FCF3B6C001FA029 /* ArtistInterectorFactory.swift */,
+			);
+			path = Interector;
+			sourceTree = "<group>";
+		};
+		EC364F301FCF3BD5001FA029 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				EC364F311FCF3BF3001FA029 /* ArtistGatwayFactory.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		EC364F351FCF3D0D001FA029 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EC364F361FCF3DC7001FA029 /* ArtistPresenterFactory.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		EC620D7B1FC89EBB00168668 = {
@@ -346,7 +417,8 @@
 		EC95B17F1FCDBF54005BD0A7 /* Result */ = {
 			isa = PBXGroup;
 			children = (
-				EC9693151FCC60540031AD69 /* GenerateResult.swift */,
+				EC364F2A1FCF31F0001FA029 /* GenerateResultEntity.swift */,
+				EC9693151FCC60540031AD69 /* GenerateResultList.swift */,
 				EC9693181FCC609F0031AD69 /* Result.swift */,
 				EC96931A1FCC60B40031AD69 /* CompletionHandler.swift */,
 			);
@@ -356,6 +428,9 @@
 		EC95B18E1FCDD5FF005BD0A7 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
+				EC364F351FCF3D0D001FA029 /* Presenter */,
+				EC364F301FCF3BD5001FA029 /* Gateway */,
+				EC364F2C1FCF3B4C001FA029 /* Interector */,
 				EC95B19F1FCDE429005BD0A7 /* Controller */,
 				EC95B19E1FCDE424005BD0A7 /* Router */,
 			);
@@ -521,22 +596,31 @@
 				EC95B1971FCDD781005BD0A7 /* ArtistPresenter.swift in Sources */,
 				EC95B1871FCDC791005BD0A7 /* DeleteRequestable.swift in Sources */,
 				EC9693201FCC612B0031AD69 /* GetRequestFactory.swift in Sources */,
+				EC364F1B1FCF286F001FA029 /* Artist.swift in Sources */,
 				EC95B19D1FCDDEB6005BD0A7 /* ArtistCollectionView.swift in Sources */,
+				EC364F271FCF2C05001FA029 /* ArtistByIdNetworkGatway.swift in Sources */,
 				EC95B1851FCDC6C1005BD0A7 /* DeleteRequestFactory.swift in Sources */,
 				EC95B1731FCD9E38005BD0A7 /* String+Constants.swift in Sources */,
 				EC9693191FCC609F0031AD69 /* Result.swift in Sources */,
 				EC95B1831FCDC6B7005BD0A7 /* PutRequestFactory.swift in Sources */,
+				EC364F291FCF2DBE001FA029 /* ArtistDecodableEntity.swift in Sources */,
 				EC95B17E1FCDBF47005BD0A7 /* DeleteRequest.swift in Sources */,
+				EC364F191FCF2835001FA029 /* ArtistInterector.swift in Sources */,
+				EC364F2F1FCF3B6C001FA029 /* ArtistInterectorFactory.swift in Sources */,
 				EC95B18D1FCDC7E2005BD0A7 /* GetRequestable.swift in Sources */,
 				EC620D881FC89EBB00168668 /* AppDelegate.swift in Sources */,
+				EC364F371FCF3DC7001FA029 /* ArtistPresenterFactory.swift in Sources */,
 				EC95B1811FCDC6AC005BD0A7 /* PostRequestFactory.swift in Sources */,
 				EC95B1931FCDD6E1005BD0A7 /* ArtistRouter.swift in Sources */,
 				EC95B1991FCDD8A5005BD0A7 /* ArtistNavigationViewControllerRouter.swift in Sources */,
 				EC95B1911FCDD66B005BD0A7 /* UIColor+Constant.swift in Sources */,
+				EC364F2B1FCF31F0001FA029 /* GenerateResultEntity.swift in Sources */,
+				EC364F251FCF2B77001FA029 /* ArtistGateway.swift in Sources */,
 				EC95B17A1FCDBF31005BD0A7 /* PostRequest.swift in Sources */,
+				EC364F321FCF3BF3001FA029 /* ArtistGatwayFactory.swift in Sources */,
 				EC9693131FCC5FF10031AD69 /* GetRequest.swift in Sources */,
 				EC95B1951FCDD73A005BD0A7 /* ArtistViewController.swift in Sources */,
-				EC9693161FCC60540031AD69 /* GenerateResult.swift in Sources */,
+				EC9693161FCC60540031AD69 /* GenerateResultList.swift in Sources */,
 				EC95B17C1FCDBF3F005BD0A7 /* PutRequest.swift in Sources */,
 				EC95B19B1FCDD941005BD0A7 /* ArtistViewControllerFactory.swift in Sources */,
 				EC95B1A11FCDE434005BD0A7 /* RootNavigationViewControllerRouterFactory.swift in Sources */,

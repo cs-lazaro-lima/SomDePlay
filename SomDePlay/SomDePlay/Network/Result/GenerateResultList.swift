@@ -8,7 +8,7 @@
 
 import Foundation
 
-class GenerateResult<DecodableEntity: Decodable, Entity> {
+class GenerateResultList<DecodableEntity: Decodable, Entity> {
     
     private let structGenerator: ([DecodableEntity]) -> [Entity]
     
@@ -19,9 +19,9 @@ class GenerateResult<DecodableEntity: Decodable, Entity> {
     func generate(_ data: Data?, _ error: NetworkError?) -> Result<[Entity], NetworkError> {
         if let data = data {
             do {
-                let carsDecodable = try JSONDecoder().decode([DecodableEntity].self, from: data)
-                let cars = self.structGenerator(carsDecodable)
-                return Result.success(cars)
+                let listDecodable = try JSONDecoder().decode([DecodableEntity].self, from: data)
+                let list = self.structGenerator(listDecodable)
+                return Result.success(list)
             } catch {
                 return Result.fail(.mapping)
             }

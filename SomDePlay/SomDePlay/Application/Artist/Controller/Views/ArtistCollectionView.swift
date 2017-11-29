@@ -10,6 +10,14 @@ import UIKit
 
 class ArtistCollectionView: UIView {
 
+    lazy var presenter: ArtistPresenter = ArtistPresenterFactory.make(onSuccess: { artist in
+        print(artist)
+    }, onNetworkError: { netwrokError in
+        print(netwrokError)
+    }) {
+        
+    }
+    
     init(parentView: UIView) {
         super.init(frame: .zero)
         setupView(parentView: parentView)
@@ -29,4 +37,6 @@ class ArtistCollectionView: UIView {
         bottomAnchor.constraint(equalTo: safeArea.bottomAnchor).isActive = true
         leadingAnchor.constraint(equalTo: parentView.leadingAnchor).isActive = true
     }
+
+
 }
