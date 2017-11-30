@@ -45,6 +45,10 @@
 		EC96931B1FCC60B40031AD69 /* CompletionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96931A1FCC60B40031AD69 /* CompletionHandler.swift */; };
 		EC9693201FCC612B0031AD69 /* GetRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96931F1FCC612B0031AD69 /* GetRequestFactory.swift */; };
 		EC9693231FCC618B0031AD69 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9693221FCC618B0031AD69 /* NetworkError.swift */; };
+		EC98F9801FCF9250007898DD /* ArtistViewLabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98F97F1FCF9250007898DD /* ArtistViewLabelFactory.swift */; };
+		EC98F9821FCF9751007898DD /* ArtistViewImageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98F9811FCF9751007898DD /* ArtistViewImageFactory.swift */; };
+		ECF4E31E1FCFA7A600EA5A03 /* UIImageView+download.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF4E31D1FCFA7A600EA5A03 /* UIImageView+download.swift */; };
+		ECF4E3201FCFB38300EA5A03 /* ArtistViewButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF4E31F1FCFB38300EA5A03 /* ArtistViewButtonFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +104,10 @@
 		EC96931A1FCC60B40031AD69 /* CompletionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionHandler.swift; sourceTree = "<group>"; };
 		EC96931F1FCC612B0031AD69 /* GetRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequestFactory.swift; sourceTree = "<group>"; };
 		EC9693221FCC618B0031AD69 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EC98F97F1FCF9250007898DD /* ArtistViewLabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewLabelFactory.swift; sourceTree = "<group>"; };
+		EC98F9811FCF9751007898DD /* ArtistViewImageFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewImageFactory.swift; sourceTree = "<group>"; };
+		ECF4E31D1FCFA7A600EA5A03 /* UIImageView+download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+download.swift"; sourceTree = "<group>"; };
+		ECF4E31F1FCFB38300EA5A03 /* ArtistViewButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewButtonFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +371,7 @@
 			children = (
 				EC95B1721FCD9E38005BD0A7 /* String+Constants.swift */,
 				EC95B1901FCDD66B005BD0A7 /* UIColor+Constant.swift */,
+				ECF4E31D1FCFA7A600EA5A03 /* UIImageView+download.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -428,6 +437,7 @@
 		EC95B18E1FCDD5FF005BD0A7 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
+				EC98F97E1FCF923C007898DD /* View */,
 				EC364F351FCF3D0D001FA029 /* Presenter */,
 				EC364F301FCF3BD5001FA029 /* Gateway */,
 				EC364F2C1FCF3B4C001FA029 /* Interector */,
@@ -486,6 +496,16 @@
 				EC9693221FCC618B0031AD69 /* NetworkError.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		EC98F97E1FCF923C007898DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC98F97F1FCF9250007898DD /* ArtistViewLabelFactory.swift */,
+				EC98F9811FCF9751007898DD /* ArtistViewImageFactory.swift */,
+				ECF4E31F1FCFB38300EA5A03 /* ArtistViewButtonFactory.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -596,6 +616,7 @@
 				EC95B1971FCDD781005BD0A7 /* ArtistPresenter.swift in Sources */,
 				EC95B1871FCDC791005BD0A7 /* DeleteRequestable.swift in Sources */,
 				EC9693201FCC612B0031AD69 /* GetRequestFactory.swift in Sources */,
+				ECF4E31E1FCFA7A600EA5A03 /* UIImageView+download.swift in Sources */,
 				EC364F1B1FCF286F001FA029 /* Artist.swift in Sources */,
 				EC95B19D1FCDDEB6005BD0A7 /* ArtistCollectionView.swift in Sources */,
 				EC364F271FCF2C05001FA029 /* ArtistByIdNetworkGatway.swift in Sources */,
@@ -603,9 +624,11 @@
 				EC95B1731FCD9E38005BD0A7 /* String+Constants.swift in Sources */,
 				EC9693191FCC609F0031AD69 /* Result.swift in Sources */,
 				EC95B1831FCDC6B7005BD0A7 /* PutRequestFactory.swift in Sources */,
+				ECF4E3201FCFB38300EA5A03 /* ArtistViewButtonFactory.swift in Sources */,
 				EC364F291FCF2DBE001FA029 /* ArtistDecodableEntity.swift in Sources */,
 				EC95B17E1FCDBF47005BD0A7 /* DeleteRequest.swift in Sources */,
 				EC364F191FCF2835001FA029 /* ArtistInterector.swift in Sources */,
+				EC98F9801FCF9250007898DD /* ArtistViewLabelFactory.swift in Sources */,
 				EC364F2F1FCF3B6C001FA029 /* ArtistInterectorFactory.swift in Sources */,
 				EC95B18D1FCDC7E2005BD0A7 /* GetRequestable.swift in Sources */,
 				EC620D881FC89EBB00168668 /* AppDelegate.swift in Sources */,
@@ -624,6 +647,7 @@
 				EC95B17C1FCDBF3F005BD0A7 /* PutRequest.swift in Sources */,
 				EC95B19B1FCDD941005BD0A7 /* ArtistViewControllerFactory.swift in Sources */,
 				EC95B1A11FCDE434005BD0A7 /* RootNavigationViewControllerRouterFactory.swift in Sources */,
+				EC98F9821FCF9751007898DD /* ArtistViewImageFactory.swift in Sources */,
 				EC95B18B1FCDC7D2005BD0A7 /* PostRequestable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

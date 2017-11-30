@@ -10,7 +10,7 @@ import Foundation
 
 struct ArtistByIdNetworkGateway: ArtistGateway {
     
-  //  private let url = "http://api.deezer.com/artist/"
+    private let url = "https://api.deezer.com/artist/"
     private let getRequest: GetRequestable
     
     init(getRequest: GetRequestable) {
@@ -18,14 +18,13 @@ struct ArtistByIdNetworkGateway: ArtistGateway {
     }
     
     func artist(byId id: Int, _ completionHandler: @escaping ((Result<Artist, NetworkError>) -> Void)) {
-        getRequest.get(url: "https://api.deezer.com/artist/1") { ( data , error) in
+        getRequest.get(url: "\(url)/\(id)") { ( data , error) in
             let result = GenerateResultEntity<ArtistDecodableEntity, Artist>(self.mappingArtist).generate(data, error)
-            
             completionHandler(result)
         }
     }
     
     private func mappingArtist(entity: ArtistDecodableEntity) -> Artist {
-        return Artist(id: entity.id, name: entity.name, link: entity.link, share: entity.share, picture: entity.picture, picture_small: entity.picture_small, picture_medium: entity.picture_medium, picture_big: entity.picture_big, picture_xl: entity.picture_xl, nb_album: entity.nb_album, nb_fan: entity.nb_fan, radio: entity.radio, tracklist: entity.tracklist, type: entity.type)
+        return Artist(id: entity.id, name: entity.name, link: URL(string: entity.link)!, share: URL(string: entity.share)!, picture: URL(string: entity.picture_medium)!, quantityAlbum: entity.nb_album, quantityFa: entity.nb_fan, isRadio: entity.radio, tracklist: URL(string: entity.tracklist)!, type: entity.type)
     }
 }

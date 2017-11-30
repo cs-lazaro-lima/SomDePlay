@@ -9,7 +9,7 @@
 import Foundation
 
 struct ArtistPresenterFactory {
-    static func make(onSuccess:@escaping (Artist) -> Void, onNetworkError: @escaping (NetworkError) -> Void, onEmpty:@escaping () -> Void) -> ArtistPresenter {
-        return ArtistPresenter(onSuccess: onSuccess, onNetworkError: onNetworkError, onEmpty: onEmpty)
+    static func make(onSuccess:@escaping (Artist) -> Void, onNetworkError: @escaping (NetworkError) -> Void) -> ArtistPresenter {
+        return ArtistPresenter(onSuccess: onSuccess, onNetworkError: onNetworkError)
     }
 }

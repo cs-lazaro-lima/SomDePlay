@@ -11,16 +11,12 @@ import Foundation
 struct Artist {
     let id: Int
     let name: String
-    let link: String
-    let share: String
-    let picture: String
-    let picture_small: String
-    let picture_medium: String
-    let picture_big: String
-    let picture_xl: String
-    let nb_album: Int
-    let nb_fan: Int
-    let radio: Bool
-    let tracklist: String
+    let link: URL
+    let share: URL
+    let picture: URL
+    let quantityAlbum: Int
+    let quantityFa: Int
+    let isRadio: Bool
+    let tracklist: URL
     let type: String
 }

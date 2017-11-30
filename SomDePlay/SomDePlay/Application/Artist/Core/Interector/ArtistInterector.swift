@@ -22,9 +22,9 @@ struct ArtistInterector {
         geteway.artist(byId: id) { result in
             switch result {
             case .success(let artist):
-                self.presenter.show(artist: artist)
+                self.presenter.onSuccess(artist: artist)
             case .fail(let error):
-                self.presenter.show(error: error)
+                self.presenter.onNetworkError(error: error)
             }
         }
     }

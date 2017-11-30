@@ -12,23 +12,18 @@ final class ArtistPresenter {
     
     private let onSuccess: (Artist) -> Void
     private let onNetworkError: (NetworkError) -> Void
-    private let onEmpty: () -> Void
     
-    init(onSuccess:@escaping (Artist) -> Void, onNetworkError: @escaping (NetworkError) -> Void, onEmpty:@escaping () -> Void) {
+    init(onSuccess:@escaping (Artist) -> Void, onNetworkError: @escaping (NetworkError) -> Void) {
         self.onSuccess = onSuccess
         self.onNetworkError = onNetworkError
-        self.onEmpty = onEmpty
     }
     
-    func show(artist: Artist) {
+    func onSuccess(artist: Artist) {
         onSuccess(artist)
     }
     
-    func show(error: NetworkError) {
+    func onNetworkError(error: NetworkError) {
         onNetworkError(error)
     }
     
-    func showEmpty() {
-        onEmpty()
-    }
 }
