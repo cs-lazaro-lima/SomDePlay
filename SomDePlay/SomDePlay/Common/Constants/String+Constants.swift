@@ -17,6 +17,7 @@ extension String {
     }
     
     struct NavigationTitle {
+        static let seachArtist = "Buscar Artistas"
         static let artist = "Artistas"
     }
 }

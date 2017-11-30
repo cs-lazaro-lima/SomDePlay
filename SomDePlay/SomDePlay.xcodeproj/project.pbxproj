@@ -16,6 +16,18 @@
 		EC364F2F1FCF3B6C001FA029 /* ArtistInterectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F2E1FCF3B6C001FA029 /* ArtistInterectorFactory.swift */; };
 		EC364F321FCF3BF3001FA029 /* ArtistGatwayFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F311FCF3BF3001FA029 /* ArtistGatwayFactory.swift */; };
 		EC364F371FCF3DC7001FA029 /* ArtistPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F361FCF3DC7001FA029 /* ArtistPresenterFactory.swift */; };
+		EC364F401FD062B6001FA029 /* SerachArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F3F1FD062B6001FA029 /* SerachArtistViewController.swift */; };
+		EC364F431FD0636E001FA029 /* SerachArtistViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F421FD0636E001FA029 /* SerachArtistViewControllerFactory.swift */; };
+		EC364F461FD063C3001FA029 /* SerachArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F451FD063C3001FA029 /* SerachArtistView.swift */; };
+		EC364F4D1FD06505001FA029 /* SerachArtistRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F4C1FD06505001FA029 /* SerachArtistRouter.swift */; };
+		EC364F4F1FD0675A001FA029 /* SerachArtistNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F4E1FD0675A001FA029 /* SerachArtistNavigationRouter.swift */; };
+		EC364F551FD06D38001FA029 /* SearchArtistPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F541FD06D38001FA029 /* SearchArtistPresenter.swift */; };
+		EC364F571FD06DC5001FA029 /* SearchArtistGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F561FD06DC5001FA029 /* SearchArtistGateway.swift */; };
+		EC364F591FD07653001FA029 /* SearchArtistNetworkGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F581FD07653001FA029 /* SearchArtistNetworkGateway.swift */; };
+		EC364F5B1FD07D1B001FA029 /* SearchArtistInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F5A1FD07D1B001FA029 /* SearchArtistInterector.swift */; };
+		EC364F5D1FD07FE1001FA029 /* ArtistPresenterFactoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F5C1FD07FE1001FA029 /* ArtistPresenterFactoryFactory.swift */; };
+		EC364F5F1FD08138001FA029 /* SearchArtistInterectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F5E1FD08138001FA029 /* SearchArtistInterectorFactory.swift */; };
+		EC364F611FD0817D001FA029 /* SearchArtistGatwayFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC364F601FD0817D001FA029 /* SearchArtistGatwayFactory.swift */; };
 		EC620D881FC89EBB00168668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC620D871FC89EBB00168668 /* AppDelegate.swift */; };
 		EC620D8F1FC89EBB00168668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC620D8E1FC89EBB00168668 /* Assets.xcassets */; };
 		EC620D921FC89EBB00168668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC620D901FC89EBB00168668 /* LaunchScreen.storyboard */; };
@@ -67,6 +79,18 @@
 		EC364F2E1FCF3B6C001FA029 /* ArtistInterectorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInterectorFactory.swift; sourceTree = "<group>"; };
 		EC364F311FCF3BF3001FA029 /* ArtistGatwayFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistGatwayFactory.swift; sourceTree = "<group>"; };
 		EC364F361FCF3DC7001FA029 /* ArtistPresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistPresenterFactory.swift; sourceTree = "<group>"; };
+		EC364F3F1FD062B6001FA029 /* SerachArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachArtistViewController.swift; sourceTree = "<group>"; };
+		EC364F421FD0636E001FA029 /* SerachArtistViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachArtistViewControllerFactory.swift; sourceTree = "<group>"; };
+		EC364F451FD063C3001FA029 /* SerachArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachArtistView.swift; sourceTree = "<group>"; };
+		EC364F4C1FD06505001FA029 /* SerachArtistRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachArtistRouter.swift; sourceTree = "<group>"; };
+		EC364F4E1FD0675A001FA029 /* SerachArtistNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachArtistNavigationRouter.swift; sourceTree = "<group>"; };
+		EC364F541FD06D38001FA029 /* SearchArtistPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistPresenter.swift; sourceTree = "<group>"; };
+		EC364F561FD06DC5001FA029 /* SearchArtistGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistGateway.swift; sourceTree = "<group>"; };
+		EC364F581FD07653001FA029 /* SearchArtistNetworkGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistNetworkGateway.swift; sourceTree = "<group>"; };
+		EC364F5A1FD07D1B001FA029 /* SearchArtistInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistInterector.swift; sourceTree = "<group>"; };
+		EC364F5C1FD07FE1001FA029 /* ArtistPresenterFactoryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistPresenterFactoryFactory.swift; sourceTree = "<group>"; };
+		EC364F5E1FD08138001FA029 /* SearchArtistInterectorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistInterectorFactory.swift; sourceTree = "<group>"; };
+		EC364F601FD0817D001FA029 /* SearchArtistGatwayFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistGatwayFactory.swift; sourceTree = "<group>"; };
 		EC620D841FC89EBB00168668 /* SomDePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomDePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC620D871FC89EBB00168668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC620D8E1FC89EBB00168668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -123,6 +147,7 @@
 		EC0C05F91FC8C67900D0D522 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				EC364F531FD068CA001FA029 /* RootFactory */,
 				EC0C05FB1FC8CC7100D0D522 /* Artist */,
 				EC0C05FC1FC8CC8500D0D522 /* Album */,
 			);
@@ -212,6 +237,7 @@
 		EC364F1D1FCF2A90001FA029 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EC364F3F1FD062B6001FA029 /* SerachArtistViewController.swift */,
 				EC95B1941FCDD73A005BD0A7 /* ArtistViewController.swift */,
 				EC364F1E1FCF2A98001FA029 /* Views */,
 			);
@@ -221,6 +247,7 @@
 		EC364F1E1FCF2A98001FA029 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EC364F451FD063C3001FA029 /* SerachArtistView.swift */,
 				EC95B19C1FCDDEB6005BD0A7 /* ArtistCollectionView.swift */,
 			);
 			path = Views;
@@ -229,6 +256,8 @@
 		EC364F1F1FCF2AD4001FA029 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				EC364F4C1FD06505001FA029 /* SerachArtistRouter.swift */,
+				EC364F4E1FD0675A001FA029 /* SerachArtistNavigationRouter.swift */,
 				EC95B1921FCDD6E1005BD0A7 /* ArtistRouter.swift */,
 				EC95B1981FCDD8A5005BD0A7 /* ArtistNavigationViewControllerRouter.swift */,
 			);
@@ -238,6 +267,7 @@
 		EC364F201FCF2ADF001FA029 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				EC364F541FD06D38001FA029 /* SearchArtistPresenter.swift */,
 				EC95B1961FCDD781005BD0A7 /* ArtistPresenter.swift */,
 			);
 			path = Presenter;
@@ -246,8 +276,10 @@
 		EC364F211FCF2AE7001FA029 /* Gatway */ = {
 			isa = PBXGroup;
 			children = (
+				EC364F561FD06DC5001FA029 /* SearchArtistGateway.swift */,
 				EC364F241FCF2B77001FA029 /* ArtistGateway.swift */,
 				EC364F261FCF2C05001FA029 /* ArtistByIdNetworkGatway.swift */,
+				EC364F581FD07653001FA029 /* SearchArtistNetworkGateway.swift */,
 			);
 			path = Gatway;
 			sourceTree = "<group>";
@@ -256,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				EC364F181FCF2835001FA029 /* ArtistInterector.swift */,
+				EC364F5A1FD07D1B001FA029 /* SearchArtistInterector.swift */,
 			);
 			path = Interector;
 			sourceTree = "<group>";
@@ -273,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				EC364F2E1FCF3B6C001FA029 /* ArtistInterectorFactory.swift */,
+				EC364F5E1FD08138001FA029 /* SearchArtistInterectorFactory.swift */,
 			);
 			path = Interector;
 			sourceTree = "<group>";
@@ -281,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				EC364F311FCF3BF3001FA029 /* ArtistGatwayFactory.swift */,
+				EC364F601FD0817D001FA029 /* SearchArtistGatwayFactory.swift */,
 			);
 			path = Gateway;
 			sourceTree = "<group>";
@@ -289,8 +324,17 @@
 			isa = PBXGroup;
 			children = (
 				EC364F361FCF3DC7001FA029 /* ArtistPresenterFactory.swift */,
+				EC364F5C1FD07FE1001FA029 /* ArtistPresenterFactoryFactory.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EC364F531FD068CA001FA029 /* RootFactory */ = {
+			isa = PBXGroup;
+			children = (
+				EC95B1A01FCDE434005BD0A7 /* RootNavigationViewControllerRouterFactory.swift */,
+			);
+			path = RootFactory;
 			sourceTree = "<group>";
 		};
 		EC620D7B1FC89EBB00168668 = {
@@ -447,7 +491,6 @@
 		EC95B19E1FCDE424005BD0A7 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				EC95B1A01FCDE434005BD0A7 /* RootNavigationViewControllerRouterFactory.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -455,6 +498,7 @@
 		EC95B19F1FCDE429005BD0A7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EC364F421FD0636E001FA029 /* SerachArtistViewControllerFactory.swift */,
 				EC95B19A1FCDD941005BD0A7 /* ArtistViewControllerFactory.swift */,
 			);
 			path = Controller;
@@ -593,6 +637,9 @@
 				EC96931B1FCC60B40031AD69 /* CompletionHandler.swift in Sources */,
 				EC95B1891FCDC7BC005BD0A7 /* PutRequestable.swift in Sources */,
 				EC9693231FCC618B0031AD69 /* NetworkError.swift in Sources */,
+				EC364F571FD06DC5001FA029 /* SearchArtistGateway.swift in Sources */,
+				EC364F4D1FD06505001FA029 /* SerachArtistRouter.swift in Sources */,
+				EC364F5D1FD07FE1001FA029 /* ArtistPresenterFactoryFactory.swift in Sources */,
 				EC95B1971FCDD781005BD0A7 /* ArtistPresenter.swift in Sources */,
 				EC95B1871FCDC791005BD0A7 /* DeleteRequestable.swift in Sources */,
 				EC9693201FCC612B0031AD69 /* GetRequestFactory.swift in Sources */,
@@ -604,27 +651,36 @@
 				EC9693191FCC609F0031AD69 /* Result.swift in Sources */,
 				EC95B1831FCDC6B7005BD0A7 /* PutRequestFactory.swift in Sources */,
 				EC364F291FCF2DBE001FA029 /* ArtistDecodableEntity.swift in Sources */,
+				EC364F4F1FD0675A001FA029 /* SerachArtistNavigationRouter.swift in Sources */,
 				EC95B17E1FCDBF47005BD0A7 /* DeleteRequest.swift in Sources */,
 				EC364F191FCF2835001FA029 /* ArtistInterector.swift in Sources */,
 				EC364F2F1FCF3B6C001FA029 /* ArtistInterectorFactory.swift in Sources */,
 				EC95B18D1FCDC7E2005BD0A7 /* GetRequestable.swift in Sources */,
 				EC620D881FC89EBB00168668 /* AppDelegate.swift in Sources */,
 				EC364F371FCF3DC7001FA029 /* ArtistPresenterFactory.swift in Sources */,
+				EC364F551FD06D38001FA029 /* SearchArtistPresenter.swift in Sources */,
 				EC95B1811FCDC6AC005BD0A7 /* PostRequestFactory.swift in Sources */,
 				EC95B1931FCDD6E1005BD0A7 /* ArtistRouter.swift in Sources */,
+				EC364F401FD062B6001FA029 /* SerachArtistViewController.swift in Sources */,
+				EC364F5B1FD07D1B001FA029 /* SearchArtistInterector.swift in Sources */,
 				EC95B1991FCDD8A5005BD0A7 /* ArtistNavigationViewControllerRouter.swift in Sources */,
+				EC364F5F1FD08138001FA029 /* SearchArtistInterectorFactory.swift in Sources */,
 				EC95B1911FCDD66B005BD0A7 /* UIColor+Constant.swift in Sources */,
 				EC364F2B1FCF31F0001FA029 /* GenerateResultEntity.swift in Sources */,
 				EC364F251FCF2B77001FA029 /* ArtistGateway.swift in Sources */,
 				EC95B17A1FCDBF31005BD0A7 /* PostRequest.swift in Sources */,
+				EC364F431FD0636E001FA029 /* SerachArtistViewControllerFactory.swift in Sources */,
 				EC364F321FCF3BF3001FA029 /* ArtistGatwayFactory.swift in Sources */,
 				EC9693131FCC5FF10031AD69 /* GetRequest.swift in Sources */,
+				EC364F611FD0817D001FA029 /* SearchArtistGatwayFactory.swift in Sources */,
 				EC95B1951FCDD73A005BD0A7 /* ArtistViewController.swift in Sources */,
 				EC9693161FCC60540031AD69 /* GenerateResultList.swift in Sources */,
+				EC364F591FD07653001FA029 /* SearchArtistNetworkGateway.swift in Sources */,
 				EC95B17C1FCDBF3F005BD0A7 /* PutRequest.swift in Sources */,
 				EC95B19B1FCDD941005BD0A7 /* ArtistViewControllerFactory.swift in Sources */,
 				EC95B1A11FCDE434005BD0A7 /* RootNavigationViewControllerRouterFactory.swift in Sources */,
 				EC95B18B1FCDC7D2005BD0A7 /* PostRequestable.swift in Sources */,
+				EC364F461FD063C3001FA029 /* SerachArtistView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

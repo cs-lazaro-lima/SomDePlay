@@ -9,10 +9,8 @@
 import UIKit
 
 struct RootNavigationViewControllerRouterFactory {
-    
-    static func make(window: UIWindow) -> ArtistRouter {
-        return ArtistNavigationViewControllerRouter(window: window)
+    static func make(window: UIWindow) -> SerachArtistRouter {
+        return SerachArtistNavigationRouter(window: window)
     }
-    
 }
 
